@@ -12,7 +12,7 @@ st.set_page_config(page_title="SSC 2026 Explorer", layout="wide")
 st.markdown("""
 <style>
     div[data-testid="metric-container"] {
-        background-color: #f0f2f6;
+        background-color: #000000;
         border: 1px solid #d6d6d6;
         padding: 10px;
         border-radius: 5px;
@@ -174,7 +174,7 @@ with st.sidebar:
     if os.path.exists("Main Banner.png"):
         st.image("Main Banner.png")
     
-    st.header("SSC 2026 Dashboard : Explorer")
+    st.header("SSC 2026 : Explorer iPad")
     view_selection = st.selectbox(
         "Select Dataset:",
         ["Regional Performance", "Outlet Performance", "LOB Comparison"]
