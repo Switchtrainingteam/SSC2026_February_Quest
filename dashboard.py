@@ -136,20 +136,16 @@ df_outlets = pd.DataFrame(data_outlets)
 
 # --- C. LOB COMPARISON ---
 df_lob = pd.DataFrame({
-    'Result': [
-        'Apple Watch & iPhone (Fail)', 
-        'Apple Watch & iPhone (Pass)', 
+    'Result': [ 
         'iPad (Fail)', 
         'iPad (Pass)', 
-        'Mac (Fail)', 
-        'Mac (Pass)'
     ],
-    'Central': [84, 48, 84, 48, 0, 0],
-    'Sarawak': [27, 33, 21, 39, 0, 0],
-    'Sabah': [43, 23, 44, 22, 0, 0],
-    'East Coast': [20, 25, 24, 21, 0, 0],
-    'Southern': [69, 34, 68, 35, 0, 0],
-    'Northern': [64, 64, 57, 70, 0, 0]
+    'Central': [84, 48],
+    'Sarawak': [21, 39],
+    'Sabah': [44, 22],
+    'East Coast': [24, 21],
+    'Southern': [68, 35],
+    'Northern': [57, 70]
 })
 
 # Function to clean and structure LOB data
